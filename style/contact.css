@@ -18,6 +18,11 @@ body {
     animation-iteration-count: infinite;
 }
 
+.wrapper {
+  margin: 0% 10%;
+  justify-content: center;
+}
+
 h1 {
     font-family: cursive;
     font-size: 500%;
