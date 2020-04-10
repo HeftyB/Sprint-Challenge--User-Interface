@@ -61,6 +61,15 @@ input[type=text], select, textarea {
     background-color: deeppink;
     color: oldlace;
   }
+
+  @keyframes glowing {
+    0% { background-color: royalblue;}
+    50% { background-color: red;}
+    100% { background-color: purple;}
+    }
+
+    input[type=submit] {
+    animation: glowing 1200ms infinite;
   
   .container {
     border-radius: 5px;
@@ -68,8 +77,8 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-  footer {
-    background-color: white;
+  body .wrapper footer {
+    color: white;
   }
 
   footer address a {
